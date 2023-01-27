@@ -1,0 +1,1 @@
+FourKitesCommon::Logger.debug(self, "sent_load_status_change_to_po_pipeline #{message['trackingId']}")
