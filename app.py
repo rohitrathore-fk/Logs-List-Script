@@ -2,15 +2,18 @@ import os
 import re
 import csv
 
+#VARIABLES
 to_find = "FourKitesCommon::Logger."
 target = "/Users/rohit.rathore/Desktop/Log Script/target/tracking-service"
 result = []
 words = []
 freq = {}
 freq_list = []
+next_line = False
 
-
+#FUNCTIONS
 def get_logs():
+    global next_line
     for root, dirs, files in os.walk(target):
         for filename in files:
             path = root+"/"+filename
@@ -18,10 +21,18 @@ def get_logs():
             try:
                 with open(path) as df:
                     for line in df:
-                        if re.match(to_find,line.strip()):
-                            log_detail = re.search("\"(.*?)\"", line).group(1) if (re.search("\"(.*?)\"", line) != None) else "" # in between ""
+                        if re.match(to_find,line.strip()) or next_line:
+                            log_detail = re.search("\"(.*?)\"", line).group(1) if (re.search("\"(.*?)\"", line) != None) else ""
                             if(log_detail == ""):
-                                log_detail = re.search("\'(.*?)\'", line).group(1) if (re.search("\'(.*?)\'", line) != None) else "" # in between ''
+                                log_detail = re.search("\'(.*?)\'", line).group(1) if (re.search("\'(.*?)\'", line) != None) else ""
+                            if next_line:
+                                next_line = False
+                                result[-1]["Log Message"] = log_detail
+                                result[-1]["Characters"] = len(log_detail)
+                                continue
+                            #IF LOG DETAILS STILL EMPTY THEN NEXT LINE WILL HAVE DETAILS
+                            if(log_detail == ""):
+                                next_line = True
                             words.extend(log_detail.split())
                             log_type_string = to_find+"(.*?)\("
                             log_type = re.search(log_type_string, line).group(1) # get log type before () and after Logger.
