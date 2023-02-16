@@ -1,0 +1,903 @@
+File,Path,Matched String,String inside,Type
+base_transformer.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/notification/transformers,"FourKitesCommon::Logger.error(self, ""Error converting time_stamp"", error: e.message, backtrace: e.backtrace[0..5].join(""\n""))
+","self, ""Error converting time_stamp"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")",error
+base_transformer.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/notification/transformers,"FourKitesCommon::Logger.error(self, ""Error while fetching customers for load #{load[:id]} for #{message_type}"", error: e.message)
+","self, ""Error while fetching customers for load #{load[:id]} for #{message_type}"", error: e.message",error
+sibling_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""Message SIBLING_LOADS_GROUPING queued in worker queue: #{sibling_group_messages}"")
+","self, ""Message SIBLING_LOADS_GROUPING queued in worker queue: #{sibling_group_messages}""",info
+sibling_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queuing sibling loads grouping message #{sibling_group_messages}"", error: e.message)
+","self, ""Error queuing sibling loads grouping message #{sibling_group_messages}"", error: e.message",error
+sibling_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.warn(self, ""Company not found: #{company}"", error: e.message)
+","self, ""Company not found: #{company}"", error: e.message",warn
+sibling_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error occurred while fetching sibling configuration from CS"")
+","self, ""Error occurred while fetching sibling configuration from CS""",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Unable to fetch address #{address_ids} from geo service"", error: e.message)
+","self, ""Unable to fetch address #{address_ids} from geo service"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""[show_weights_and_rates?] Error while fetching relationship between shipper and carrier"", e.message)
+","self, ""[show_weights_and_rates?] Error while fetching relationship between shipper and carrier"", e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""Message #{message_type} queued in worker queue: #{message_id}"")
+","self, ""Message #{message_type} queued in worker queue: #{message_id}""",info
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Partial error occurred while updating shared_with in #{table_name}"")
+","self, ""Partial error occurred while updating shared_with in #{table_name}""",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Trackings_ES_SYNC_FAILED:#{item['status']} ID:#{item['_id']}, #{item['result']}, #{item['error']}"")
+","self, ""Trackings_ES_SYNC_FAILED:#{item['status']} ID:#{item['_id']}, #{item['result']}, #{item['error']}""",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error in uploading Trackings data to ES"", error: e.message)
+","self, ""Error in uploading Trackings data to ES"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""#{messages.size} messages queued in worker queue for CONSIGNMENT_GROUPING"")
+","self, ""#{messages.size} messages queued in worker queue for CONSIGNMENT_GROUPING""",info
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{messages} to worker queue"", error: e.message)
+","self, ""Error queueing messages #{messages} to worker queue"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Sending message to KAFKA"", topic: topic, messages: params, options: options)
+","self, ""Sending message to KAFKA"", topic: topic, messages: params, options: options",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Pushed message to KAFKA"")
+","self, ""Pushed message to KAFKA""",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error Sending message to Kafka"")
+","self, ""Error Sending message to Kafka""",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Sending message to KAFKA"", topic: topic, messages: params, options: options)
+","self, ""Sending message to KAFKA"", topic: topic, messages: params, options: options",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Pushed message to KAFKA"")
+","self, ""Pushed message to KAFKA""",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error Sending message to Kafka"")
+","self, ""Error Sending message to Kafka""",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{messages} to worker queue"", error: e.message)
+","self, ""Error queueing messages #{messages} to worker queue"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Eurl Template Id for #{company_id}:: #{tracking_mode}:: #{tracking_type} is #{template_id}"")
+","self, ""Eurl Template Id for #{company_id}:: #{tracking_mode}:: #{tracking_type} is #{template_id}""",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error calling eurl service for template id for #{company_id}"", error: e.message)
+","self, ""Error calling eurl service for template id for #{company_id}"", error: e.message",error
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Current user company #{company_id}"")
+
+","self, ""Current user company #{company_id}""",debug
+tracking_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.warn(self, ""Error while calling ocean service client for load id #{tracking_id}"", error: e.message) 
+","self, ""Error while calling ocean service client for load id #{tracking_id}"", error: e.message",warn
+tracking_events_notification_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Published tracking event #{params[:message]}"")
+","self, ""Published tracking event #{params[:message]}""",debug
+tracking_events_notification_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.warn(self, ""Could not publish event #{params[:message]['EventType']}"", error: e.message)
+","self, ""Could not publish event #{params[:message]['EventType']}"", error: e.message",warn
+files_controller_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self,""Received new #{params[:documentType]} for load #{stop[:tracking_id]} for stop #{stop[:stop_id]}, deleted old files"")
+","self,""Received new #{params[:documentType]} for load #{stop[:tracking_id]} for stop #{stop[:stop_id]}, deleted old files""",info
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self,
+      ""Sending Order status #{order_tracking_status} to status_change_to_po_pipeline for orders: #{orders}"")
+","self,
+      ""Sending Order status #{order_tracking_status} to status_change_to_po_pipeline for orders: #{orders}""",debug
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self,
+                                  ""Sending message to KAFKA For Po Load Mapping tracking_ids: #{tracking_ids}"", topic: topic, messages: messages)
+","self,
+                                  ""Sending message to KAFKA For Po Load Mapping tracking_ids: #{tracking_ids}"", topic: topic, messages: messages",debug
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, 'Pushed message to KAFKA')
+","self, 'Pushed message to KAFKA'",debug
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, 'Error Sending message to Kafka For Po')
+","self, 'Error Sending message to Kafka For Po'",error
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""sent_load_status_change_to_po_pipeline #{message['trackingId']}"")
+","self, ""sent_load_status_change_to_po_pipeline #{message['trackingId']}""",debug
+po_tracking_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, 'Failed to send kafka message to load status change po pipeline',
+                                  error: e.message)
+","self, 'Failed to send kafka message to load status change po pipeline',
+                                  error: e.message",error
+company_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Failed to retrieve relationship information for company_id: #{company_id} target_company_id: #{target_company_id}"", error: e.message)
+","self, ""Failed to retrieve relationship information for company_id: #{company_id} target_company_id: #{target_company_id}"", error: e.message",error
+company_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Failed to retrieve relationship information for tpl_id: #{company_id} shipper_id: #{shipper_id}"", error: e.message)
+","self, ""Failed to retrieve relationship information for tpl_id: #{company_id} shipper_id: #{shipper_id}"", error: e.message",error
+company_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Failed to retrieve company information for company_id: #{company_id}"", error: e.message)
+","self, ""Failed to retrieve company information for company_id: #{company_id}"", error: e.message",error
+company_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""picking up non_3pl_relationship for #{relationship.try(:[], 'company').try(:[], 'name') } AND #{ relationship.try(:[], 'targetCompany').try(:[], 'name') }"")
+","self, ""picking up non_3pl_relationship for #{relationship.try(:[], 'company').try(:[], 'name') } AND #{ relationship.try(:[], 'targetCompany').try(:[], 'name') }""",info
+tracking_logic_v2_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""V2 messages #{messages}"")
+
+","self, ""V2 messages #{messages}""",debug
+tracking_logic_v2_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""Skipping #{message_types} V2 messages from queuing to SQS"")
+","self, ""Skipping #{message_types} V2 messages from queuing to SQS""",info
+tracking_logic_v2_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""#{message_types} messages queued in worker queue: #{message_id}"")
+","self, ""#{message_types} messages queued in worker queue: #{message_id}""",info
+tracking_logic_v2_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queueing #{message_types} messages to worker queue"", error: e.message)
+","self, ""Error queueing #{message_types} messages to worker queue"", error: e.message",error
+tracking_logic_v2_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.warn(self, ""Api call to global address service failed #{e}"")
+","self, ""Api call to global address service failed #{e}""",warn
+po_stop_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Recieved Line Item : #{pallet_part}"")
+","self, ""Recieved Line Item : #{pallet_part}""",debug
+link_load_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""SHARE_LOAD_LEVEL_UPDATES_WITH_LINK_LOADS message Queued sucessfully #{message}"")
+","self, ""SHARE_LOAD_LEVEL_UPDATES_WITH_LINK_LOADS message Queued sucessfully #{message}""",debug
+link_load_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error ocuured while sharing load level updates with link loads #{ex.message}"")
+","self, ""Error ocuured while sharing load level updates with link loads #{ex.message}""",error
+link_load_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""SHARE_STOP_LEVEL_UPDATES_WITH_LINK_LOADS message Queued sucessfully #{message}"")
+","self, ""SHARE_STOP_LEVEL_UPDATES_WITH_LINK_LOADS message Queued sucessfully #{message}""",debug
+link_load_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error ocuured while sharing stop level updates with link loads"" + ex.message)
+","self, ""Error ocuured while sharing stop level updates with link loads"" + ex.message",error
+message_client_util.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""#{error_message}"", error: e.message)
+","self, ""#{error_message}"", error: e.message",error
+base_validation.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""last_departure_or_arrival_time #{last_departure_or_arrival_time}, timestamp #{timestamp}"")
+","self, ""last_departure_or_arrival_time #{last_departure_or_arrival_time}, timestamp #{timestamp}""",debug
+tags_hierarchy_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""Autocomplete query: #{query_params}"")
+","self, ""Autocomplete query: #{query_params}""",debug
+tags_hierarchy_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.info(self, ""Got ES results in #{Time.now - @start_time} secs"")
+","self, ""Got ES results in #{Time.now - @start_time} secs""",info
+tags_hierarchy_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.debug(self, ""es query: #{query_params}"")
+","self, ""es query: #{query_params}""",debug
+tags_hierarchy_utils.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/utils,"FourKitesCommon::Logger.error(self, ""Error queueing load_ids for Tags Hierarchy "", error: e.message)
+","self, ""Error queueing load_ids for Tags Hierarchy "", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error Occurred while fetching Child Companies. #{e}"")
+","self, ""Error Occurred while fetching Child Companies. #{e}""",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to store kafka message"", error: e.message)
+","self, ""Failed to store kafka message"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Unable to get incentive load information"", error: e.message)
+","self, ""Unable to get incentive load information"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to store kafka message"", error: e.message)
+","self, ""Failed to store kafka message"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Deleted the tags #{tags_to_delete} and the files associated with stop IDs #{stop_ids} on tracking ID #{self.id} since carrier got updated from #{self.carrier_id_was} to #{self.carrier_id}"")
+","self, ""Deleted the tags #{tags_to_delete} and the files associated with stop IDs #{stop_ids} on tracking ID #{self.id} since carrier got updated from #{self.carrier_id_was} to #{self.carrier_id}""",info
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Message 'CALCULATE_MUST_PICKUP_BY_TIME' queued in worker queue: #{message_id}"")
+","self, ""Message 'CALCULATE_MUST_PICKUP_BY_TIME' queued in worker queue: #{message_id}""",info
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""#{message_type} message queued in worker queue: #{message_id} for TrackingId: #{self.id}"")
+","self, ""#{message_type} message queued in worker queue: #{message_id} for TrackingId: #{self.id}""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{messages} to worker queue"", error: e.message)
+","self, ""Error queueing message #{messages} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""Message queued in worker queue: #{message_id}"")
+","self, ""Message queued in worker queue: #{message_id}""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to send message to air worker"", error: e.message)
+","self, ""Failed to send message to air worker"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to store kafka message"", error: e.message)
+","self, ""Failed to store kafka message"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to store kafka message"", error: e.message)
+","self, ""Failed to store kafka message"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.warn(self, ""Error in publishing data to SQS"", error: e.message)
+","self, ""Error in publishing data to SQS"", error: e.message",warn
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""ES_LOADS_TO_SYNC message queued for load #{self.id}"")
+","self, ""ES_LOADS_TO_SYNC message queued for load #{self.id}""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name}"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Message '#{message['MessageType']}' queued in worker queue: #{message}"")
+","self, ""Message '#{message['MessageType']}' queued in worker queue: #{message}""",info
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.warn(self, ""Error While resloving Timezone ShortName & Timezone Offset for #{message}"", error: e.message)
+","self, ""Error While resloving Timezone ShortName & Timezone Offset for #{message}"", error: e.message",warn
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""Message queued in worker queue: #{message_id}"")
+","self, ""Message queued in worker queue: #{message_id}""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Changing status to tracking_info_assigned"")
+","self, ""Changing status to tracking_info_assigned""",info
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""PERFORM_ETA_STATUS_EVALUATION message queued in worker queue"")
+","self, ""PERFORM_ETA_STATUS_EVALUATION message queued in worker queue""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Error enqueuing PERFORM_ETA_STATUS_EVALUATION message"", error: e.message)
+","self, ""Error enqueuing PERFORM_ETA_STATUS_EVALUATION message"", error: e.message",info
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to retrieve relationship information for shipper: #{shipper_id} carrier: #{carrier_id}"", error: e.message)
+","self, ""Failed to retrieve relationship information for shipper: #{shipper_id} carrier: #{carrier_id}"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to retrieve company object for carrier: #{carrier_id}"", error: e.message)
+","self, ""Failed to retrieve company object for carrier: #{carrier_id}"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Failed to retrieve company modules for Order Visibility License check : #{self.shipper_id}"", error: e.message)
+","self, ""Failed to retrieve company modules for Order Visibility License check : #{self.shipper_id}"", error: e.message",error
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.debug(self, ""ENQUEUE_LOAD_INFO_TO_KAFKA_FOR_SFA message queued in worker queue: #{message_id} for TrackingId: #{self.id}"")
+","self, ""ENQUEUE_LOAD_INFO_TO_KAFKA_FOR_SFA message queued in worker queue: #{message_id} for TrackingId: #{self.id}""",debug
+tracking.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""Error enqueuing ENQUEUE_LOAD_INFO_TO_KAFKA_FOR_SFA message"", error: e.message)
+","self, ""Error enqueuing ENQUEUE_LOAD_INFO_TO_KAFKA_FOR_SFA message"", error: e.message",info
+four_kites_record.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.info(self, ""no records to process"")
+","self, ""no records to process""",info
+four_kites_record.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.warn(self, ""no updates to process"")
+","self, ""no updates to process""",warn
+attribute.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name} from Attributes model for load: #{self.parent_id}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name} from Attributes model for load: #{self.parent_id}"", error: e.message",error
+event_cache.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name} for load: #{self.tracking_id}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name} for load: #{self.tracking_id}"", error: e.message",error
+expiry_alert.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.info(self, ""Error enqueuing PERFORM_TRACKING_CALCULATIONS message"", error: e.message)
+","self, ""Error enqueuing PERFORM_TRACKING_CALCULATIONS message"", error: e.message",info
+late_reason_code.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Could not generate late reason code notification."", error: e.message)
+","self, ""Could not generate late reason code notification."", error: e.message",error
+dwell_time_status.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: ex.message)
+","self, ""Error queueing message #{message} to worker queue"", error: ex.message",error
+dwell_time_status.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error transforming TRUCK_NOT_MOVING"", error: e.message, backtrace: e.backtrace)
+","self, ""Error transforming TRUCK_NOT_MOVING"", error: e.message, backtrace: e.backtrace",error
+dwell_time_status.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: ex.message)
+","self, ""Error queueing message #{message} to worker queue"", error: ex.message",error
+temperature_check_call.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: ex.message)
+","self, ""Error queueing message #{message} to worker queue"", error: ex.message",error
+temperature_check_call.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error transforming TEMPERATURE_OUTSIDE_THRESHOLD"", error: e.message, backtrace: e.backtrace)
+","self, ""Error transforming TEMPERATURE_OUTSIDE_THRESHOLD"", error: e.message, backtrace: e.backtrace",error
+temperature_check_call.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""PostTemperatureUpdate: Sending message to SQS #{message}"")
+","self, ""PostTemperatureUpdate: Sending message to SQS #{message}""",debug
+temperature_check_call.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: ex.message)
+","self, ""Error queueing message #{message} to worker queue"", error: ex.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""#{message['ErrorMessage'].to_s}. #{debug_message}"", error: e.message)
+","self, ""#{message['ErrorMessage'].to_s}. #{debug_message}"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Could not send #{message['Message']['MessageType'].to_s} message"", error: e.message)
+","self, ""Could not send #{message['Message']['MessageType'].to_s} message"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""CALCULATE_DELIVERY_APPOINTMENT_TIME message queued in worker queue: #{message_id} TrackingId: #{self.tracking_id} and StopId: #{self.id}"")
+","self, ""CALCULATE_DELIVERY_APPOINTMENT_TIME message queued in worker queue: #{message_id} TrackingId: #{self.tracking_id} and StopId: #{self.id}""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""STOP_ADDRESS_UPDATED message queued in worker queue: #{message_id}"")
+","self, ""STOP_ADDRESS_UPDATED message queued in worker queue: #{message_id}""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{complete_message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{complete_message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""Stop Want time Rescheduled update message queued in worker queue: #{message_id}"")
+","self, ""Stop Want time Rescheduled update message queued in worker queue: #{message_id}""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""INLAND_DELIVERY_DISTANCE_UPDATED message queued in worker queue"")
+","self, ""INLAND_DELIVERY_DISTANCE_UPDATED message queued in worker queue""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queuing INLAND_DELIVERY_DISTANCE_UPDATED message to worker queue"", error: e.message)
+","self, ""Error queuing INLAND_DELIVERY_DISTANCE_UPDATED message to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""AUTO_CALCULATE_LTL_PARCEL_DELIVERY_APPOINTMENT_TIME message queued in worker queue: #{message_id}"")
+","self, ""AUTO_CALCULATE_LTL_PARCEL_DELIVERY_APPOINTMENT_TIME message queued in worker queue: #{message_id}""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Unable to get mindistance for check_call #{check_call_time} error #{e}"")
+","self, ""Unable to get mindistance for check_call #{check_call_time} error #{e}""",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""Sending message to KAFKA For PO on stop eta/status update"", topic: topic, message: message)
+","self, ""Sending message to KAFKA For PO on stop eta/status update"", topic: topic, message: message",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""Sending message to KAFKA for courier stop eta"", topic: topic, message: message)
+","self, ""Sending message to KAFKA for courier stop eta"", topic: topic, message: message",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""Update address statistics message queued in worker queue for address ids: #{old_address_id.to_s}, #{new_address_id.to_s}"")
+","self, ""Update address statistics message queued in worker queue for address ids: #{old_address_id.to_s}, #{new_address_id.to_s}""",debug
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing Update address statistics message for address ids: #{old_address_id.to_s}, #{new_address_id.to_s} to worker queue"", error: e.message)
+","self, ""Error queueing Update address statistics message for address ids: #{old_address_id.to_s}, #{new_address_id.to_s} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Failed to store kafka message"", error: e.message)
+","self, ""Failed to store kafka message"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing STOP_DEPARTURE_LTL message for load #{self.tracking_id} for stop #{self.stop_id}"", error: e.message)
+","self, ""Error queueing STOP_DEPARTURE_LTL message for load #{self.tracking_id} for stop #{self.stop_id}"", error: e.message",error
+stop.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing POPULATE_STOP_ETA_CONFIGURATION message"", error: e.message)
+","self, ""Error queueing POPULATE_STOP_ETA_CONFIGURATION message"", error: e.message",error
+update.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.debug(self, ""Message queued in worker queue: #{message_id}"")
+","self, ""Message queued in worker queue: #{message_id}""",debug
+update.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error syncing carrier_eta for fourkitesx load: #{self.tracking_id}"", error: e.message)
+","self, ""Error syncing carrier_eta for fourkitesx load: #{self.tracking_id}"", error: e.message",error
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""Sending message to Kafka - Stop ETA received for courier load"", topic: topic, message: message)
+","self, ""Sending message to Kafka - Stop ETA received for courier load"", topic: topic, message: message",debug
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.info(self, ""CARRIER_ETA_UPDATED callback sent for #{self.tracking_id}"")
+","self, ""CARRIER_ETA_UPDATED callback sent for #{self.tracking_id}""",info
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error queueing CARRIER_ETA_UPDATED message"", error: e.message)
+","self, ""Error queueing CARRIER_ETA_UPDATED message"", error: e.message",error
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.info(self, ""FK_ETA_UPDATED message queued for #{self.tracking_id}"")
+","self, ""FK_ETA_UPDATED message queued for #{self.tracking_id}""",info
+extension.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error queueing FK_ETA_UPDATED message"", error: e.message)
+","self, ""Error queueing FK_ETA_UPDATED message"", error: e.message",error
+verification_document.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""Send sqs message for file verification. document id: #{self.id}"")
+","self, ""Send sqs message for file verification. document id: #{self.id}""",debug
+verification_document.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""Adding  submission tags for file verification. document id: #{self.id}"")
+","self, ""Adding  submission tags for file verification. document id: #{self.id}""",debug
+verification_document.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""Send sqs message for document completion. document id: #{self.id}"")
+","self, ""Send sqs message for document completion. document id: #{self.id}""",debug
+verification_document.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""Adding  approval tags for file verification. document id: #{self.id},previous status: #{previous_status}"")
+","self, ""Adding  approval tags for file verification. document id: #{self.id},previous status: #{previous_status}""",debug
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Exception in document attachement for file #{self.id}, stop_id: #{self.stop.id}"", error: e.message)
+","self, ""Exception in document attachement for file #{self.id}, stop_id: #{self.stop.id}"", error: e.message",error
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Exception in copying document attachment for file #{self.id}, stop_id: #{delivery_stop.id}"", error: e.message)
+","self, ""Exception in copying document attachment for file #{self.id}, stop_id: #{delivery_stop.id}"", error: e.message",error
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error while pushing the callback message EDOCS_DETAILS"", errors: e.message)
+","self, ""Error while pushing the callback message EDOCS_DETAILS"", errors: e.message",error
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name} for load: #{tracking_stop.tracking_id}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name} for load: #{tracking_stop.tracking_id}"", error: e.message",error
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""EDocs tag added when file created in load: load_id:#{tracking.id}"") if update_edocs_tag(tracking)
+","self, ""EDocs tag added when file created in load: load_id:#{tracking.id}"") if update_edocs_tag(tracking",debug
+file.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/tracking/stop,"FourKitesCommon::Logger.debug(self, ""EDocs event tag : #{self.notes}"") 
+","self, ""EDocs event tag : #{self.notes}""",debug
+batch_kafka_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""KAFKA topic is missing for message: #{message}"")
+","self, ""KAFKA topic is missing for message: #{message}""",error
+batch_kafka_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.debug(self, ""Sending message to KAFKA for tracking id: #{message['TrackingId']}"", topic: topic, message: message)
+","self, ""Sending message to KAFKA for tracking id: #{message['TrackingId']}"", topic: topic, message: message",debug
+batch_kafka_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.debug(self, ""Pushed message to KAFKA"")
+","self, ""Pushed message to KAFKA""",debug
+batch_kafka_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""Failed to push message to KAFKA"", error: e.message)
+","self, ""Failed to push message to KAFKA"", error: e.message",error
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.debug(self, ""calling batch sync SQS messages in after commit callback for queue #{queue_name}"")
+","self, ""calling batch sync SQS messages in after commit callback for queue #{queue_name}""",debug
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""Error when getting message for message type #{message_type}"")
+","self, ""Error when getting message for message type #{message_type}""",error
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""Error when calling batch sync SQS message. #{e.message}"")
+","self, ""Error when calling batch sync SQS message. #{e.message}""",error
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name} for load: #{message['TrackingId']}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name} for load: #{message['TrackingId']}"", error: e.message",error
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.debug(self, ""#{message_type} message queued in worker queue: #{message_id}"")
+","self, ""#{message_type} message queued in worker queue: #{message_id}""",debug
+batch_sqs_call_back_sync.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/models/concerns,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+tracking_sfa_check_call_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.error(self, ""Unable to get shipper data"", error: e.message)
+","self, ""Unable to get shipper data"", error: e.message",error
+stop_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.error(self, ""Error while resolving timezone :: Timezone => #{timezone.to_s} :: time => #{time.to_s} :: error message => #{e.message}"")
+","self, ""Error while resolving timezone :: Timezone => #{timezone.to_s} :: time => #{time.to_s} :: error message => #{e.message}""",error
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.debug(self, ""optional params with cache value in Presenter #{options['cached_tracking_updates']}"")
+","self, ""optional params with cache value in Presenter #{options['cached_tracking_updates']}""",debug
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.debug(self, ""Got fourkitesx data in #{Time.now - @start_time} secs"")
+","self, ""Got fourkitesx data in #{Time.now - @start_time} secs""",debug
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.debug(self, ""Got split shipment trackings data in #{Time.now - @start_time} secs"")
+","self, ""Got split shipment trackings data in #{Time.now - @start_time} secs""",debug
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.error(self, ""Unable to get company data"", error: e.message)
+","self, ""Unable to get company data"", error: e.message",error
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.info(self, ""Time taken to present load data for indexing: #{total_time_taken - total_time_taken_for_stops} and stop data for indexing: #{total_time_taken_for_stops}"")
+","self, ""Time taken to present load data for indexing: #{total_time_taken - total_time_taken_for_stops} and stop data for indexing: #{total_time_taken_for_stops}""",info
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.debug(self, ""responses: #{responses}"")
+","self, ""responses: #{responses}""",debug
+tracking_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters,"FourKitesCommon::Logger.error(self, ""Unable to global address for ocean stops #{params}"", error: e.message)
+","self, ""Unable to global address for ocean stops #{params}"", error: e.message",error
+es_presenter.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/presenters/insights,"FourKitesCommon::Logger.info(self, ""Insights ES Indexing Time taken #{time_hash}"")
+","self, ""Insights ES Indexing Time taken #{time_hash}""",info
+tracking_updates_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.debug(self, ""Will be creating a new update"")
+","self, ""Will be creating a new update""",debug
+tracking_updates_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.debug(self, ""Will be just updating"")
+","self, ""Will be just updating""",debug
+ltl_load_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""No stop found with stop_id #{stop_params[:stopId]} for load #{tracking.id}"")
+","self, ""No stop found with stop_id #{stop_params[:stopId]} for load #{tracking.id}""",info
+stop_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Eta source not available for storing eta"")
+","self, ""Eta source not available for storing eta""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid firstLocationPingAt, cannot be parsed. #{e.message}"")
+","self, ""Invalid firstLocationPingAt, cannot be parsed. #{e.message}""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Got new LTL load update with status #{status} and type #{value_type}"")
+","self, ""Got new LTL load update with status #{status} and type #{value_type}""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Eta source not available for storing eta"")
+","self, ""Eta source not available for storing eta""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid manuallyCompletedAt, cannot be parsed"")
+","self, ""Invalid manuallyCompletedAt, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid estimatedArrivalTime, cannot be parsed"")
+","self, ""Invalid estimatedArrivalTime, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid liveDwellStartAt, cannot be parsed"")
+","self, ""Invalid liveDwellStartAt, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid minDistanceCheckCallAt, cannot be parsed"")
+","self, ""Invalid minDistanceCheckCallAt, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid arrivedAt, cannot be parsed"")
+","self, ""Invalid arrivedAt, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid departedAt, cannot be parsed"")
+","self, ""Invalid departedAt, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid #{timestamp_field}, cannot be parsed. #{e.message}"")
+","self, ""Invalid #{timestamp_field}, cannot be parsed. #{e.message}""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Invalid #{appointment_time_field}, cannot be parsed"")
+","self, ""Invalid #{appointment_time_field}, cannot be parsed""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, e.message)
+","self, e.message",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.error(self, ""No carrier found , OperatingCarrierScac : #{operating_carrier_scac} , managingCarrier : #{load_params[:load][:carrier]}"")
+","self, ""No carrier found , OperatingCarrierScac : #{operating_carrier_scac} , managingCarrier : #{load_params[:load][:carrier]}""",error
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.warn(self, ""Carrier not found. #{e.message}"")
+","self, ""Carrier not found. #{e.message}""",warn
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Cannot find product with externalId: #{external_id} in company: #{owner_id}"")
+","self, ""Cannot find product with externalId: #{external_id} in company: #{owner_id}""",info
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.warn(self, ""Carrier not found. #{e.message}"")
+","self, ""Carrier not found. #{e.message}""",warn
+tracking_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""stop_level_coordinates_sent_during_load_creation. #{additional_info}"")
+","self, ""stop_level_coordinates_sent_during_load_creation. #{additional_info}""",info
+verification_document_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.info(self, ""Comments for file id #{file_id}"", comments)
+","self, ""Comments for file id #{file_id}"", comments",info
+verification_document_mapper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/mappers,"FourKitesCommon::Logger.error(self, ""Expection while calling ebol client for file #{file_id} "", error: e.message)
+","self, ""Expection while calling ebol client for file #{file_id} "", error: e.message",error
+application_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers,"FourKitesCommon::Logger.error(self, ""Unable to send failed api params to firehose"", error: e.message)
+","self, ""Unable to send failed api params to firehose"", error: e.message",error
+tms_integration_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers,"FourKitesCommon::Logger.debug(self, ""MG_RESPONSE_XML message queued in worker queue: #{message_id}"")
+","self, ""MG_RESPONSE_XML message queued in worker queue: #{message_id}""",debug
+ocean_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers,"FourKitesCommon::Logger.error(self, ""Error Sending message to SQS"", error: e.message)
+","self, ""Error Sending message to SQS"", error: e.message",error
+ocean_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers,"FourKitesCommon::Logger.error(self, ""Error Parsing Crux update"", error: e.message)
+","self, ""Error Parsing Crux update"", error: e.message",error
+copy_tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""User #{copy_params[:copiedBy]} is not authorized to copy loads to the demo account #{copy_params[:targetShipper]}"")
+","self, ""User #{copy_params[:copiedBy]} is not authorized to copy loads to the demo account #{copy_params[:targetShipper]}""",info
+copy_tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""COPY_TRACKING_TO_DEMO_ACCOUNT message queued in worker queue: #{message_id}"")
+","self, ""COPY_TRACKING_TO_DEMO_ACCOUNT message queued in worker queue: #{message_id}""",debug
+copy_tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""demo_company_permalink = #{demo_company_permalink}, copy_to_demo_company_settings = #{copy_to_demo_company_settings}"")
+","self, ""demo_company_permalink = #{demo_company_permalink}, copy_to_demo_company_settings = #{copy_to_demo_company_settings}""",debug
+copy_tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""Exception in can_user_copy_to_demo_company? check: #{e}"")
+","self, ""Exception in can_user_copy_to_demo_company? check: #{e}""",debug
+copy_tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""sourceLoadId/demoLoadId is empty"")
+","self, ""sourceLoadId/demoLoadId is empty""",error
+location_providers_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Couldn't prepare file: [#{file_name}]"", error: e.message)
+","self, ""Couldn't prepare file: [#{file_name}]"", error: e.message",error
+location_providers_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""uploading file #{file_name} from company: #{company_id} for provider: #{location_provider_id} to s3"")
+","self, ""uploading file #{file_name} from company: #{company_id} for provider: #{location_provider_id} to s3""",info
+location_providers_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Couldn't upload file: [#{file_name}] to s3"", error: e.message)
+","self, ""Couldn't upload file: [#{file_name}] to s3"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error while pushing the LOAD_UPDATION message"", errors: e.message)
+","self, ""Error while pushing the LOAD_UPDATION message"", errors: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Loads Queue for Sync For Tags #{params[:tags]}"")
+","self, ""Loads Queue for Sync For Tags #{params[:tags]}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""No geo_address to update stops."")
+","self, ""No geo_address to update stops.""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Failed to set geo_address for stop because address is not found."")
+","self, ""Failed to set geo_address for stop because address is not found.""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Failed to set geo_address for stop. #{e.message}"")
+","self, ""Failed to set geo_address for stop. #{e.message}""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""Carrier is not specified"")
+","self, ""Carrier is not specified""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""Carrier is not in the network"")
+","self, ""Carrier is not in the network""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Tracking record #{tracking.id} created successfully"")
+","self, ""Tracking record #{tracking.id} created successfully""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""#{notifications.size} messages queued in worker queue for TRACKING_CREATED"")
+","self, ""#{notifications.size} messages queued in worker queue for TRACKING_CREATED""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{notifications} to worker queue"", error: e.message)
+","self, ""Error queueing messages #{notifications} to worker queue"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""failed to fetch carriers. #{e.message}"")
+","self, ""failed to fetch carriers. #{e.message}""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""load: #{@tracking.id}, carrier: #{@tracking.carrier_id}"", error: e.message)
+","self, ""load: #{@tracking.id}, carrier: #{@tracking.carrier_id}"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error retrieving tracking ids from ES for Direct Assignment window"", error: e.message)
+","self, ""Error retrieving tracking ids from ES for Direct Assignment window"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""[HARD-LOAD-DELETION] Deleting #{params[:trackingIds]} loads from DB"")
+","self, ""[HARD-LOAD-DELETION] Deleting #{params[:trackingIds]} loads from DB""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Exception occurred while deleting #{params[:trackingIds]}"", error: e.message)
+","self, ""Exception occurred while deleting #{params[:trackingIds]}"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error updating load #{@tracking.id} after validations"", error: @tracking.errors.full_messages)
+","self, ""Error updating load #{@tracking.id} after validations"", error: @tracking.errors.full_messages",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Error getting milestone updates for #{tracking_id}"")
+","self, ""Error getting milestone updates for #{tracking_id}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""#{@tracking.shipper_id} not exists"")
+","self, ""#{@tracking.shipper_id} not exists""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""Carrier is not specified"")
+","self, ""Carrier is not specified""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to get sibling loads info', error: e.message)
+","self, 'Failed to get sibling loads info', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""get_loads_with_minimal_data started at #{@start_time}"")
+
+","self, ""get_loads_with_minimal_data started at #{@start_time}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Got ES results in #{Time.now - @start_time} secs"")
+
+","self, ""Got ES results in #{Time.now - @start_time} secs""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Got #{tracking_ids.length} records in #{(Time.now - @start_time) * 1000}ms"")
+","self, ""Got #{tracking_ids.length} records in #{(Time.now - @start_time) * 1000}ms""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to search for load level data', error: e.message)
+","self, 'Failed to search for load level data', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""index started at #{@start_time}"")
+","self, ""index started at #{@start_time}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""#{I18n.translate('mabd.informational.success')} :: #{message}"")
+","self, ""#{I18n.translate('mabd.informational.success')} :: #{message}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""#{I18n.translate('mabd.informational.error')} :: #{message}"", error: e.message)
+","self, ""#{I18n.translate('mabd.informational.error')} :: #{message}"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""#{I18n.translate('recommendation.informational.export.success')} :: #{message}"")
+","self, ""#{I18n.translate('recommendation.informational.export.success')} :: #{message}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""#{I18n.translate('recommendation.informational.export.error')}"", error: e.message)
+","self, ""#{I18n.translate('recommendation.informational.export.error')}"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""No.of Loads in edoc exceeds #{trackings.count}"")
+","self, ""No.of Loads in edoc exceeds #{trackings.count}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""Carrier autocomplete query: #{query_params}"")
+","self, ""Carrier autocomplete query: #{query_params}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Got ES results in #{Time.now - @start_time} secs"")
+","self, ""Got ES results in #{Time.now - @start_time} secs""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to get results from ES', error: e.message)
+","self, 'Failed to get results from ES', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Returning #{@trackings.size} loads for the driver #{@phone || @driver_id}"")
+","self, ""Returning #{@trackings.size} loads for the driver #{@phone || @driver_id}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""ES query #{query_params}"")
+","self, ""ES query #{query_params}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""Message queued in worker queue: #{message_id}"")
+","self, ""Message queued in worker queue: #{message_id}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message_id} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message_id} to worker queue"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Truck locations messages queued in worker queue"")
+","self, ""Truck locations messages queued in worker queue""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error queueing messages to worker queue"", error: ex.message)
+","self, ""Error queueing messages to worker queue"", error: ex.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error queueing messages to worker queue"", error: e.message)
+","self, ""Error queueing messages to worker queue"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Updating location information only. Location and stop status cannot be sent together"")
+","self, ""Updating location information only. Location and stop status cannot be sent together""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Location updates blacklisted for carrier #{carrier[:id]} and shipper #{location_params[:shipper]}"")
+","self, ""Location updates blacklisted for carrier #{carrier[:id]} and shipper #{location_params[:shipper]}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""Truck assignment message queued in #{queue_name} queue: #{message_id}"")
+","self, ""Truck assignment message queued in #{queue_name} queue: #{message_id}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to #{queue_name} queue"", error: e.message)
+","self, ""Error queueing message #{message} to #{queue_name} queue"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""PROCESS_SUPER_RECORD message queued in SQS queue: #{messages.size}"")
+","self, ""PROCESS_SUPER_RECORD message queued in SQS queue: #{messages.size}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to get consignment info', error: e.message)
+","self, 'Failed to get consignment info', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.debug(self, ""Autocomplete query: #{query_params}"")
+","self, ""Autocomplete query: #{query_params}""",debug
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Got ES results in #{Time.now - @start_time} secs"")
+","self, ""Got ES results in #{Time.now - @start_time} secs""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to get results from ES', error: e.message)
+","self, 'Failed to get results from ES', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, 'Failed to update shared_with', error: e.message)
+","self, 'Failed to update shared_with', error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Error updating load #{@tracking.id}"", error: @tracking.errors.full_messages)
+","self, ""Error updating load #{@tracking.id}"", error: @tracking.errors.full_messages",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.info(self, ""Driver #{driver_phone} #{authorised ? """" : ""not ""}authorised for Shipper #{shipper_id} and Carrier #{carrier_id}"")
+","self, ""Driver #{driver_phone} #{authorised ? """" : ""not ""}authorised for Shipper #{shipper_id} and Carrier #{carrier_id}""",info
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""date = #{date}, timezone_offset = #{timezone_offset}. Error at get_date_in_timezone #{ex}"")
+","self, ""date = #{date}, timezone_offset = #{timezone_offset}. Error at get_date_in_timezone #{ex}""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Unable to get company data"", error: e.message)
+","self, ""Unable to get company data"", error: e.message",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""Carrier not found"", error: e.message)
+","self, ""Carrier not found"", error: e.message",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""Partial error in creation of Tracking::Stop::Address"")
+","self, ""Partial error in creation of Tracking::Stop::Address""",error
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.warn(self, ""#{params[:action]} lock exists for load: #{params[:id]}"")
+","self, ""#{params[:action]} lock exists for load: #{params[:id]}""",warn
+tracking_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1,"FourKitesCommon::Logger.error(self, ""#{params[:action]} release_lock! error on #{params[:id]}"", error: e.message)
+","self, ""#{params[:action]} release_lock! error on #{params[:id]}"", error: e.message",error
+updates_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""error creating tracking update for index #{index}, with errors : #{I18n.translate('updates.errors.duplicated_update_info')}"")
+","self, ""error creating tracking update for index #{index}, with errors : #{I18n.translate('updates.errors.duplicated_update_info')}""",error
+updates_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""error creating tracking update for index #{index}, with errors : #{update.errors.full_messages}"")
+","self, ""error creating tracking update for index #{index}, with errors : #{update.errors.full_messages}""",error
+updates_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self,  ""trackingUpdates does not have trackingId"")
+","self,  ""trackingUpdates does not have trackingId""",error
+updates_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""error creating tracking update for index #{index}, with errors : #{update.errors.full_messages}"")
+","self, ""error creating tracking update for index #{index}, with errors : #{update.errors.full_messages}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""stop is not completed: #{@stop[:id]}, tracking id: #{@tracking[:id]}"")
+","self, ""stop is not completed: #{@stop[:id]}, tracking id: #{@tracking[:id]}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""stop competed before 7 days: #{@stop[:id]}, tracking id: #{@tracking[:id]}"")
+","self, ""stop competed before 7 days: #{@stop[:id]}, tracking id: #{@tracking[:id]}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""pre-condition-failed: pickup-stop:#{@stop[:id]}, tracking-terminated:#{@tracking[:id]}"")
+","self, ""pre-condition-failed: pickup-stop:#{@stop[:id]}, tracking-terminated:#{@tracking[:id]}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.info(self, ""stop: #{@stop[:id]} is_origin_stop, tracking: #{@tracking[:id]}, undo pickup"")
+","self, ""stop: #{@stop[:id]} is_origin_stop, tracking: #{@tracking[:id]}, undo pickup""",info
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.info(self, ""stop: #{@stop[:id]}, tracking is terminated: #{@tracking[:id]}. restoring to tracking queue."")
+","self, ""stop: #{@stop[:id]}, tracking is terminated: #{@tracking[:id]}. restoring to tracking queue.""",info
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""#{@stop[:id]}, tracking id: #{@tracking[:id]}, #{e.message}"")
+","self, ""#{@stop[:id]}, tracking id: #{@tracking[:id]}, #{e.message}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""stop not found, #{params[:id]}"")
+","self, ""stop not found, #{params[:id]}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.debug(self, ""PERFORM_STATUS_UPDATE_ETA_CALCULATIONS message queued in worker queue: #{message_id}"")
+","self, ""PERFORM_STATUS_UPDATE_ETA_CALCULATIONS message queued in worker queue: #{message_id}""",debug
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""PERFORM_STATUS_UPDATE_ETA_CALCULATIONS message queue failed for #{tracking.id}"", error: e.message)
+","self, ""PERFORM_STATUS_UPDATE_ETA_CALCULATIONS message queue failed for #{tracking.id}"", error: e.message",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.debug(self, ""PROCESS_MANUAL_UPDATE message queued in worker queue: #{message_id}"")
+","self, ""PROCESS_MANUAL_UPDATE message queued in worker queue: #{message_id}""",debug
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""PROCESS_MANUAL_UPDATE message queue failed for #{tracking.id}"", error: e.message)
+","self, ""PROCESS_MANUAL_UPDATE message queue failed for #{tracking.id}"", error: e.message",error
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.info(self, ""Triggered KAFKA message for Po Eta Status"", topic: topic, messages: message)
+","self, ""Triggered KAFKA message for Po Eta Status"", topic: topic, messages: message",info
+stops_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Error Sending Eta message to Kafka For Po: tracking_id: #{stop.tracking_id}"")
+","self, ""Error Sending Eta message to Kafka For Po: tracking_id: #{stop.tracking_id}""",error
+otm_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Failed to create otm load for #{@company_id}"", error: e.message)
+","self, ""Failed to create otm load for #{@company_id}"", error: e.message",error
+otm_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.debug(self, ""uploading file #{request.uuid}.xml from shipper #{company_id} to s3"")
+","self, ""uploading file #{request.uuid}.xml from shipper #{company_id} to s3""",debug
+assets_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}""",error
+check_calls_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unable to get shipper data"", error: e.message)
+","self, ""Unable to get shipper data"", error: e.message",error
+check_calls_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+check_calls_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+temperature_check_calls_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.debug(self, ""PERFORM_TEMPERATURE_TRACKING_CALCULATIONS message queued in worker queue: #{message_id}"")
+","self, ""PERFORM_TEMPERATURE_TRACKING_CALCULATIONS message queued in worker queue: #{message_id}""",debug
+temperature_check_calls_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Error queueing PERFORM_TEMPERATURE_TRACKING_CALCULATIONS message for tracking id #{@tracking.id}"")
+","self, ""Error queueing PERFORM_TEMPERATURE_TRACKING_CALCULATIONS message for tracking id #{@tracking.id}""",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""error in getting user for user id #{file.uploaded_by}"", error: e.message)
+","self, ""error in getting user for user id #{file.uploaded_by}"", error: e.message",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""error in getting presigned URL"", error: e.message)
+","self, ""error in getting presigned URL"", error: e.message",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+events_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Error in creating update #{e.message}"")
+","self, ""Error in creating update #{e.message}""",error
+events_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:id]}""",error
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Import Active record return success id and failed instances as blank #{results}"")
+","self, ""Import Active record return success id and failed instances as blank #{results}""",error
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self, ""Documents is blank"")
+","self, ""Documents is blank""",info
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self, ""Verification Params not valid"")
+","self, ""Verification Params not valid""",info
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self, ""Error #{error_message}"")
+","self, ""Error #{error_message}""",info
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}""",error
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self, ""Results is blank and documents length is #{documents.count}"")
+","self, ""Results is blank and documents length is #{documents.count}""",info
+verification_document_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.debug(self, response)
+","self, response",debug
+reschedules_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}""",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""error in getting presigned URL"", error: e.message)
+","self, ""error in getting presigned URL"", error: e.message",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self, ""File record #{file.id} for stop #{params[:stop_id]} created successfully"")
+","self, ""File record #{file.id} for stop #{params[:stop_id]} created successfully""",info
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""File is failed to create due to invalid data"", errors: file.errors.full_messages)
+","self, ""File is failed to create due to invalid data"", errors: file.errors.full_messages",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.debug(self, ""File with id #{@file.id} submitted for verification"")
+","self, ""File with id #{@file.id} submitted for verification""",debug
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.info(self,
+                                   ""File record #{params[:fileId]} for stop #{params[:stop_id]} deleted successfully by #{current_user[:userId]}"")
+","self,
+                                   ""File record #{params[:fileId]} for stop #{params[:stop_id]} deleted successfully by #{current_user[:userId]}""",info
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self,
+                                    ""File record #{params[:fileId]} for stop #{params[:stop_id]} does not exists"")
+","self,
+                                    ""File record #{params[:fileId]} for stop #{params[:stop_id]} does not exists""",error
+files_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/v1/tracking/stop,"FourKitesCommon::Logger.error(self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}"")
+","self, ""Unauthorized access attempt for tracking record #{params[:tracking_id]}""",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Load not created due to invalid or blank carrier"")
+","self, ""Load not created due to invalid or blank carrier""",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.info(self, ""Updating load #{t.id}"")
+","self, ""Updating load #{t.id}""",info
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages)
+","self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.info(self, ""Tracking record #{tracking.id} created successfully"")
+","self, ""Tracking record #{tracking.id} created successfully""",info
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages)
+","self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Load not created due to invalid or blank carrier"")
+","self, ""Load not created due to invalid or blank carrier""",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.info(self, ""Updating load #{t.id}"")
+","self, ""Updating load #{t.id}""",info
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages)
+","self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.info(self, ""Tracking record #{tracking.id} created successfully"")
+","self, ""Tracking record #{tracking.id} created successfully""",info
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages)
+","self, ""Tracking record failed to create due to invalid data"", errors: tracking.errors.full_messages",error
+loads_controller.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/controllers/api/legacy,"FourKitesCommon::Logger.error(self, ""Error retrieving company details for carrier id #{@load_params[:CarrierId]} for load number #{create_params[:loadNumber]}"", error: e.message)
+","self, ""Error retrieving company details for carrier id #{@load_params[:CarrierId]} for load number #{create_params[:loadNumber]}"", error: e.message",error
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Sending message DOCUMENT_VERIFICATION #{message}"")
+","self, ""Sending message DOCUMENT_VERIFICATION #{message}""",debug
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Redis key #{key}"")
+","self, ""Redis key #{key}""",debug
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Other errors"")
+","self, ""Other errors""",error
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""OTP valid"")
+","self, ""OTP valid""",info
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""OTP not exists"")
+","self, ""OTP not exists""",info
+verification_document_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""OTP invalid"")
+","self, ""OTP invalid""",info
+rail_dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+ocean_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, 'Unable to push OCEAN_SERVICE_LOAD_SYNC message', error: e.message, backtrace: e.backtrace)
+","self, 'Unable to push OCEAN_SERVICE_LOAD_SYNC message', error: e.message, backtrace: e.backtrace",error
+edocs_manager_sync_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Pushing edocs message - trigger: #{type}, source: #{get_edocs_table_name}, id: #{id}"")
+","self, ""Pushing edocs message - trigger: #{type}, source: #{get_edocs_table_name}, id: #{id}""",info
+edocs_manager_sync_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Pushing edocs message - trigger: delete, source: #{get_edocs_table_name}, id: #{id}"")
+","self, ""Pushing edocs message - trigger: delete, source: #{get_edocs_table_name}, id: #{id}""",info
+air_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, 'Unable to push AIR_SERVICE_LOAD_SYNC message', error: e.message, backtrace: e.backtrace)
+","self, 'Unable to push AIR_SERVICE_LOAD_SYNC message', error: e.message, backtrace: e.backtrace",error
+verification_document_message_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""EDocs tag not added when file verified in load: load_id:#{tracking.id}"") if !update_edocs_tag(tracking)
+","self, ""EDocs tag not added when file verified in load: load_id:#{tracking.id}"") if !update_edocs_tag(tracking",debug
+verification_document_message_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error while pushing the callback message EDOCS_DETAILS"", errors: e.message)
+","self, ""Error while pushing the callback message EDOCS_DETAILS"", errors: e.message",error
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Message #{action} queued in #{worker_queue_name}: #{message}"")
+","self, ""Message #{action} queued in #{worker_queue_name}: #{message}""",info
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Message #{STOP_DELETE} queued in #{worker_queue_name}: #{message}"")
+","self, ""Message #{STOP_DELETE} queued in #{worker_queue_name}: #{message}""",info
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing #{STOP_DELETE} to #{worker_queue_name}"", error: e.message)
+","self, ""Error queueing #{STOP_DELETE} to #{worker_queue_name}"", error: e.message",error
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Message #{TRACKING_DELETE} queued in #{worker_queue_name}: #{message}"")
+","self, ""Message #{TRACKING_DELETE} queued in #{worker_queue_name}: #{message}""",info
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing #{TRACKING_DELETE} to #{worker_queue_name}"", error: e.message)
+","self, ""Error queueing #{TRACKING_DELETE} to #{worker_queue_name}"", error: e.message",error
+load_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Message CREATE_NON_FACILITY_CUSTOMERS queued in #{worker_queue_name}: #{message}"")
+","self, ""Message CREATE_NON_FACILITY_CUSTOMERS queued in #{worker_queue_name}: #{message}""",info
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Update address statistics messages queued for address #{address_details}"")
+","self, ""Update address statistics messages queued for address #{address_details}""",debug
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing address statistics messages for address #{address_details}"", error: e.message)
+","self, ""Error queueing address statistics messages for address #{address_details}"", error: e.message",error
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Update address statistics messages for stop incompletion queued for address #{address_details}"")
+","self, ""Update address statistics messages for stop incompletion queued for address #{address_details}""",debug
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing address statistics messages for stop incompletion for address #{address_details}"", error: e.message)
+","self, ""Error queueing address statistics messages for stop incompletion for address #{address_details}"", error: e.message",error
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Update address statistics messages queued for address #{address_details}"")
+","self, ""Update address statistics messages queued for address #{address_details}""",debug
+address_statistics_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing address statistics messages for address #{address_details}"", error: e.message)
+","self, ""Error queueing address statistics messages for address #{address_details}"", error: e.message",error
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unable to fetch addresses #{address_ids} from geo service"", error: e.message)
+","self, ""Unable to fetch addresses #{address_ids} from geo service"", error: e.message",error
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Got addresses in #{Time.now - @start_time} secs"") 
+","self, ""Got addresses in #{Time.now - @start_time} secs""",debug
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unable to fetch addresses #{address_ids} from geo service"", error: e.message)
+","self, ""Unable to fetch addresses #{address_ids} from geo service"", error: e.message",error
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Got addresses in #{Time.now - @start_time} secs"") 
+","self, ""Got addresses in #{Time.now - @start_time} secs""",debug
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""address and location id map not present"")
+","self, ""address and location id map not present""",warn
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unable to map master address to stops #{stops}"", error: e.message)
+","self, ""Unable to map master address to stops #{stops}"", error: e.message",error
+geo_service_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Load #{load.id} Customer changed by carrier."")
+","self, ""Load #{load.id} Customer changed by carrier.""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es query: #{query_params}"")
+","self, ""es query: #{query_params}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es results: #{es_results}"")
+","self, ""es results: #{es_results}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es query: #{query_params}"")
+","self, ""es query: #{query_params}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es query: #{query_params}"")
+","self, ""es query: #{query_params}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es results: #{es_results}"")
+","self, ""es results: #{es_results}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Got ES results in #{Time.now - @start_time} secs"")
+","self, ""Got ES results in #{Time.now - @start_time} secs""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""#{message['CompanyId']} sent to worker queue"")
+","self, ""#{message['CompanyId']} sent to worker queue""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""#{message['MessageType']} sent to worker queue"")
+","self, ""#{message['MessageType']} sent to worker queue""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{message['MessageType']} to worker queue"", error: e.message)
+","self, ""Error queueing messages #{message['MessageType']} to worker queue"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""LTL_STOP_ETA_UPDATED message queued in worker queue: #{message_id}"")
+","self, ""LTL_STOP_ETA_UPDATED message queued in worker queue: #{message_id}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing LTL_STOP_ETA_UPDATED message for tracking id: #{tracking.id} "", error: e.message)
+","self, ""Error queueing LTL_STOP_ETA_UPDATED message for tracking id: #{tracking.id} "", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Got customers in #{Time.now - @start_time} secs"")
+","self, ""Got customers in #{Time.now - @start_time} secs""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Got companies in #{Time.now - @start_time} secs"")
+","self, ""Got companies in #{Time.now - @start_time} secs""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error fetch companies with permalink : #{company_permalinks}"", error: e.message)
+","self, ""Error fetch companies with permalink : #{company_permalinks}"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Ignoring mark the load : #{tracking.id} as delivered as it requested by a non special user and based on configuration for company : #{company[:id]}"")
+","self, ""Ignoring mark the load : #{tracking.id} as delivered as it requested by a non special user and based on configuration for company : #{company[:id]}""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""[verify_lean_load_configuration] Exception occured for tacking_id: #{tracking.id}"", error: e.message)
+","self, ""[verify_lean_load_configuration] Exception occured for tacking_id: #{tracking.id}"", error: e.message",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error in PROCESS_SUPER_RECORD, #{e.message}"")
+","self, ""error in PROCESS_SUPER_RECORD, #{e.message}""",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Timezone from location file config is: #{timezone} for company: #{company_id}"")
+","self, ""Timezone from location file config is: #{timezone} for company: #{company_id}""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""ES query for exports #{query_params}"")
+","self, ""ES query for exports #{query_params}""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unable to parse load token"", error: e.message)
+","self, ""Unable to parse load token"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Mandatory params for sfa missing"")
+","self, ""Mandatory params for sfa missing""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unauthorized access to tracking record #{params[:tracking_id]}"")
+","self, ""Unauthorized access to tracking record #{params[:tracking_id]}""",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing ES_LOADS_TO_SYNC for load: #{tracking_id}"", error: e.message)
+","self, ""Error queueing ES_LOADS_TO_SYNC for load: #{tracking_id}"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""tracking: #{tracking.id}, tracking_stops.id: #{tracking_stop.id}, all delivery completed and all pickups not completed"")
+","self, ""tracking: #{tracking.id}, tracking_stops.id: #{tracking_stop.id}, all delivery completed and all pickups not completed""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""tracking: #{tracking.id}, tracking_stops.id: #{tracking_stop.id}, 0 pickedup and more than 0 delivered"")
+","self, ""tracking: #{tracking.id}, tracking_stops.id: #{tracking_stop.id}, 0 pickedup and more than 0 delivered""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es query: #{search_query}"")
+","self, ""es query: #{search_query}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Got ES results for DA in #{Time.now - start_time} secs"")
+","self, ""Got ES results for DA in #{Time.now - start_time} secs""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""EurlInfo -> shipper :: #{tracking.shipper_id}, mode :: #{tracking.modes}, loadStatus :: #{tracking.status}, stopStatus :: #{stop.status}, arrivalTimeDiffInHours:: #{arrivalTimeDiffInHours}, departureTimeDiffInHours:: #{departureTimeDiffInHours}"")
+","self, ""EurlInfo -> shipper :: #{tracking.shipper_id}, mode :: #{tracking.modes}, loadStatus :: #{tracking.status}, stopStatus :: #{stop.status}, arrivalTimeDiffInHours:: #{arrivalTimeDiffInHours}, departureTimeDiffInHours:: #{departureTimeDiffInHours}""",info
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occured while logging eurl metrics"", error: e.message)
+","self, ""Error occured while logging eurl metrics"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occured in auto_complete_v1 for company #{query_params[:company_id]} and type #{query_params[:type]}"", error: e.message)
+","self, ""Error occured in auto_complete_v1 for company #{query_params[:company_id]} and type #{query_params[:type]}"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occured while fetching results from ES for DA auto suggest"", error: e.message)
+","self, ""Error occured while fetching results from ES for DA auto suggest"", error: e.message",error
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""es query: #{search_query}"")
+","self, ""es query: #{search_query}""",debug
+tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Unable to get company data"", error: e.message)
+","self, ""Unable to get company data"", error: e.message",error
+mobile_tracking_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""es results for chat bot load API: #{es_results}"")
+","self, ""es results for chat bot load API: #{es_results}""",info
+es_indexer_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing loads to #{queue_name} ids: #{ids}"", error: e.message)
+","self, ""Error queueing loads to #{queue_name} ids: #{ids}"", error: e.message",error
+sibling_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{message}"", error: e.message)
+","self, ""Error queueing messages #{message}"", error: e.message",error
+sibling_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing messages #{messages} to worker queue"", error: e.message)
+","self, ""Error queueing messages #{messages} to worker queue"", error: e.message",error
+verification_eurl_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Current user authentication #{encrypted_data} with access_code #{access_code}"")
+","self, ""Current user authentication #{encrypted_data} with access_code #{access_code}""",info
+verification_eurl_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error in getting user for user id #{@file.uploaded_by}"", error: e.message)
+","self, ""error in getting user for user id #{@file.uploaded_by}"", error: e.message",error
+load_deletion_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing message #{message} to worker queue"", error: e.message)
+","self, ""Error queueing message #{message} to worker queue"", error: e.message",error
+ocean_exception_dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+tracking_timestamp_refresh_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""PROCESS_MILESTONE_UPDATE messages queued in worker queue: #{message_id}"")
+","self, ""PROCESS_MILESTONE_UPDATE messages queued in worker queue: #{message_id}""",debug
+tracking_timestamp_refresh_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""PROCESS_MILESTONE_UPDATE messages queue failed for #{messages}"", error: e.message)
+","self, ""PROCESS_MILESTONE_UPDATE messages queue failed for #{messages}"", error: e.message",error
+tracking_timestamp_refresh_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error updating timestamp in trackig update message"", error: e.message)
+","self, ""Error updating timestamp in trackig update message"", error: e.message",error
+temperature_tracking_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error at temperature_tracking_enabled?: #{ex}"")
+","self, ""Error at temperature_tracking_enabled?: #{ex}""",error
+temperature_tracking_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""Error in retrieving company details for shipper: #{shipper_id}"", error: e.message)
+","self, ""Error in retrieving company details for shipper: #{shipper_id}"", error: e.message",warn
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self,""Operation '#{operation}' failed with error '#{error.inspect}'"")
+","self,""Operation '#{operation}' failed with error '#{error.inspect}'""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""#{observation.name}:#{observation.duration}:#{observation.cleaned_value}"")
+","self, ""#{observation.name}:#{observation.duration}:#{observation.cleaned_value}""",info
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error while publishing result"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")) 
+","self, ""Error while publishing result"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self,""Enters send_batch_create_updates_to_tracking_updates_service: for tracking #{updates}"")
+","self,""Enters send_batch_create_updates_to_tracking_updates_service: for tracking #{updates}""",debug
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""sending batch_create API of TUS for tracking id  : double write enabled request params #{tus_request_params}"")
+","self, ""sending batch_create API of TUS for tracking id  : double write enabled request params #{tus_request_params}""",info
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending batch_create_updates API of TUS for tracking id : with errors : #{e.message}"")
+","self, ""error while sending batch_create_updates API of TUS for tracking id : with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self,""Enters send_updates_to_tracking_updates_service: updates #{updates}"")
+","self,""Enters send_updates_to_tracking_updates_service: updates #{updates}""",debug
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""sending create_update API of TUS for tracking id : #{tracking.id} and updates #{updates}: double write enabled "")
+","self, ""sending create_update API of TUS for tracking id : #{tracking.id} and updates #{updates}: double write enabled """,info
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending create_update API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}"")
+","self, ""error while sending create_update API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self,""Enters send_update_ltl_load_api_updates_to_tracking_updates_service: updates #{tracking_updates}"")
+","self,""Enters send_update_ltl_load_api_updates_to_tracking_updates_service: updates #{tracking_updates}""",debug
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""sending  update_ltl_load API of TUS for tracking id : #{tracking.id} and updates #{update_params}: double write enabled "")
+","self, ""sending  update_ltl_load API of TUS for tracking id : #{tracking.id} and updates #{update_params}: double write enabled """,info
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending update_ltl_load API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}"")
+","self, ""error while sending update_ltl_load API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self,""Enters send_update_tracking_result_api_updates: tracking #{tracking} updates #{tracking_updates}"")
+","self,""Enters send_update_tracking_result_api_updates: tracking #{tracking} updates #{tracking_updates}""",debug
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""sending update_tracking_result API of TUS for tracking id : #{tracking.id} and updates #{tracking_update}: double write enabled "")
+","self, ""sending update_tracking_result API of TUS for tracking id : #{tracking.id} and updates #{tracking_update}: double write enabled """,info
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending update_tracking_result API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}"")
+","self, ""error while sending update_tracking_result API of TUS for tracking id : #{tracking.id}, with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending #{options[:api]} API of TUS for tracking id : #{tracking_id}, with errors : #{e.message}"")
+","self, ""error while sending #{options[:api]} API of TUS for tracking id : #{tracking_id}, with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending batch create updates API of TUS  with errors : #{e.message}"")
+","self, ""error while sending batch create updates API of TUS  with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""error while sending update_status of TUS for tracking id : #{tracking_id}, with errors : #{e.message}"")
+","self, ""error while sending update_status of TUS for tracking id : #{tracking_id}, with errors : #{e.message}""",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error while fetching updates"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")) 
+","self, ""Error while fetching updates"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")",error
+tracking_updates_service_migration_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error while comparing updates"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")) 
+","self, ""Error while comparing updates"", error: e.message, backtrace: e.backtrace[0..5].join(""\n"")",error
+custom_field_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Custom Field type mismatched #{custom_field[:type]} against #{matched_db_field}"")
+","self, ""Custom Field type mismatched #{custom_field[:type]} against #{matched_db_field}""",info
+custom_field_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Custom Field date format mismatched #{custom_field[:value]} against #{valid_form}"")
+","self, ""Custom Field date format mismatched #{custom_field[:value]} against #{valid_form}""",info
+ocean_dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+ocean_dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+pod_and_return_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Exception in document attachement for pod #{self.id}, stop_id: #{self.stop.id}"", error: e.message)
+","self, ""Exception in document attachement for pod #{self.id}, stop_id: #{self.stop.id}"", error: e.message",info
+edocs_message_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.info(self, ""Message #{message[""MessageType""]} queued in worker queue when load updated: #{message_id}"")
+","self, ""Message #{message[""MessageType""]} queued in worker queue when load updated: #{message_id}""",info
+edocs_message_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error queueing #{message[""MessageType""]} to worker queue load updated"", error: e.message)
+","self, ""Error queueing #{message[""MessageType""]} to worker queue load updated"", error: e.message",error
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.debug(self, ""Load Route aggreagtion Query  #{query}"")
+","self, ""Load Route aggreagtion Query  #{query}""",debug
+network_visibility_mask_setting_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occurred while applying NetworkVisibility mask setting #{e}"")
+","self, ""Error occurred while applying NetworkVisibility mask setting #{e}""",error
+network_visibility_mask_setting_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occurred while fetching NetworkVisibility mask Setting #{e}"")
+","self, ""Error occurred while fetching NetworkVisibility mask Setting #{e}""",error
+network_visibility_mask_setting_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers,"FourKitesCommon::Logger.error(self, ""Error occurred while applying NetworkVisibility mask setting #{e}"")
+","self, ""Error occurred while applying NetworkVisibility mask setting #{e}""",error
+insights_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers/insights,"FourKitesCommon::Logger.error(self, ""Unable to get company data"", error: e.message)
+","self, ""Unable to get company data"", error: e.message",error
+dashboard_metrics_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers/dashboard,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"") 
+","self, ""NoResults Query #{e.message}""",warn
+dashboard_metrics_controller_helper.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/app/helpers/dashboard,"FourKitesCommon::Logger.warn(self, ""NoResults Query #{e.message}"")
+","self, ""NoResults Query #{e.message}""",warn
+search_helper_spec.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/spec/helpers,"FourKitesCommon::Logger.warn(self, ""date = #{date}, timezone_offset = #{timezone_offset}. Error at get_date_in_timezone #{ex}"")
+","self, ""date = #{date}, timezone_offset = #{timezone_offset}. Error at get_date_in_timezone #{ex}""",warn
+load_token.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/lib,"FourKitesCommon::Logger.error(self, ""customer not found"")
+","self, ""customer not found""",error
+load_token.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/lib,"FourKitesCommon::Logger.error(self, ""encryptionKey not found"")
+","self, ""encryptionKey not found""",error
+load_token.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/lib,"FourKitesCommon::Logger.error(self, ""customer not found"")
+","self, ""customer not found""",error
+load_token.rb,/Users/rohit.rathore/Desktop/Log Script/target/tracking-service/lib,"FourKitesCommon::Logger.error(self, ""customer not found"")
+","self, ""customer not found""",error
