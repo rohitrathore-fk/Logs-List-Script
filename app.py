@@ -3,14 +3,16 @@ import re
 import csv
 
 #VARIABLES
-to_find = "Current user is"
-target = "/Users/rohit.rathore/Desktop/Log Script/target/tests/"
+# to_find = "FourKitesCommon::Logger." #FOR RUBY
+to_find = "fk_logger." #FOR GO
+target = "/Users/rohit.rathore/Desktop/Log Script/target" #WHERE THE REPO IS STORED
 result = []
 words = []
 freq = {}
 freq_list = []
 log_codes = {}
 next_line = False
+count = 0
 
 #FUNCTIONS
 def get_logs():
@@ -24,17 +26,17 @@ def get_logs():
                     for line in df:
                         if re.match(to_find,line.strip()) or next_line:
                             # print(relative_path)
-                            first_index = line.find('"')
-                            last_index = line.rfind('"')
-                            # log_detail = re.search("\"(.*?)\"", line).group(1) if (re.search("\"(.*?)\"", line) != None) else ""
-                            if(first_index != -1 and last_index != -1):
-                                log_detail = line[first_index+1:last_index]
+                            # first_index = line.find('"')
+                            # last_index = line.rfind('"')
+                            log_detail = re.search("\"(.*?)\"", line).group(1) if (re.search("\"(.*?)\"", line) != None) else ""
+                            # if(first_index != -1 and last_index != -1):
+                            #     log_detail = line[first_index+1:last_index]
                             if(log_detail == ""):
-                                first_index = line.find("'")
-                                last_index = line.rfind("'")
-                                # log_detail = re.search("\'(.*?)\'", line).group(1) if (re.search("\'(.*?)\'", line) != None) else ""
-                                if(first_index != -1 and last_index != -1):
-                                    log_detail = line[first_index+1:last_index]    
+                                # first_index = line.find("'")
+                                # last_index = line.rfind("'")
+                                log_detail = re.search("\'(.*?)\'", line).group(1) if (re.search("\'(.*?)\'", line) != None) else ""
+                                # if(first_index != -1 and last_index != -1):
+                                #     log_detail = line[first_index+1:last_index]    
                             if next_line:
                                 next_line = False
                                 result[-1]["Log Message"] = log_detail
@@ -47,8 +49,8 @@ def get_logs():
                             log_type_string = to_find+"(.*?)\("
                             log_type = re.search(log_type_string, line).group(1)
                             result.append({"Path":relative_path,"Log Type":log_type,"Log Message":log_detail,"Characters":len(log_detail)})
-            except:
-                print("ERROR GETTING FILE CONTENTS")
+            except Exception as e:
+                print(e)
 
 def create_log_codes(result):
     global log_codes
@@ -76,14 +78,14 @@ def create_csv():
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writeheader()
         writer.writerows(result)
-    with open('Word_Frequency.csv', 'w') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["Word", "Frequency"])
-        writer.writeheader()
-        writer.writerows(freq_list)
+    # with open('Word_Frequency.csv', 'w') as csvfile:
+    #     writer = csv.DictWriter(csvfile, fieldnames=["Word", "Frequency"])
+    #     writer.writeheader()
+    #     writer.writerows(freq_list)
 
 #MAIN
 if __name__ == "__main__":
     get_logs()
     # get_word_freq(words)
     # create_log_codes(result)
-    # create_csv()
+    create_csv()
